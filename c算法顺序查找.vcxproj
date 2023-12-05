@@ -130,7 +130,8 @@
     <ClInclude Include="search.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="realizesearch.c" />
+    <ClCompile Include="realizesequentialsearch.c" />
+    <ClCompile Include="Search_bin.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
