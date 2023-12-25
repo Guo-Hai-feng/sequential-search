@@ -16,6 +16,7 @@ int Search_Bin1(SSTable ST, KeyType key)
 
 int Search_Bin2(SSTable ST, KeyType key,int low,int high)
 {
+	//µÝ¹éµÄ×ö·¨
 	if (low > high)
 		return 0;
 	int mid = (low + high) / 2;

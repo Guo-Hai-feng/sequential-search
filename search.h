@@ -19,4 +19,5 @@ int Search_Seq1(SSTable ST, KeyType key);
 int Search_Seq2(SSTable ST, KeyType key);
 int Search_Seq3(SSTable ST, KeyType key);
 int Search_Seq4(SSTable ST, KeyType key);
-int Search_Bin(SSTable ST, KeyType key);
+int Search_Bin1(SSTable ST, KeyType key);
+int Search_Bin2(SSTable ST, KeyType key,int low,int high);
